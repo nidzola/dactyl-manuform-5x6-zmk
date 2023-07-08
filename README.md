@@ -28,3 +28,6 @@ After completing these steps, pair the halves of the split keyboard together by 
 
 ### Split Keyboard Halves Unable to Pair
 Split keyboard halves pairing issue can be resolved by flashing a settings reset firmware to both controllers. For resetting the firmware, use the settings_reset.uf2 file from the ZMK build artifact. After flashing the settings reset firmware, flash the actual firmware to both controllers.
+
+### General ZMK Troubleshooting
+https://zmk.dev/docs/troubleshooting
