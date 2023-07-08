@@ -14,3 +14,17 @@ This is my config for the Dactyl Manuform 5x6.
 
 ### ADJ
 TBD
+
+
+## Good to know
+### Reset Split Keyboard Procedure
+Perform the following steps to reset both halves of your split keyboard:
+
+Put each half of the split keyboard into bootloader mode.
+Flash one of the halves of the split with the downloaded settings reset UF2 image. Immediately after flashing the chosen half, put it into bootloader mode to avoid accidental bonding between the halves.
+Repeat step 2 with the other half of the split keyboard.
+Flash the actual image for each half of the split keyboard (e.g my_board_left.uf2 to the left half, my_board_right.uf2 to the right half).
+After completing these steps, pair the halves of the split keyboard together by resetting them at the same time. Most commonly, this is done by grounding the reset pins for each of your keyboard's microcontrollers or pressing the reset buttons at the same time.
+
+### Split Keyboard Halves Unable to Pair
+Split keyboard halves pairing issue can be resolved by flashing a settings reset firmware to both controllers. For resetting the firmware, use the settings_reset.uf2 file from the ZMK build artifact. After flashing the settings reset firmware, flash the actual firmware to both controllers.
