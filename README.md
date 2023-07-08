@@ -17,6 +17,17 @@ TBD
 
 
 ## Good to know
+
+### Codes for the keys
+https://zmk.dev/docs/codes
+
+### Issues with flashing
+Use terminal to flash the nice!nano.
+OSX example:
+```bash
+cp your-file-path/to-file.uf2 /Volumes/NICE\!NANO
+```
+
 ### Reset Split Keyboard Procedure
 Perform the following steps to reset both halves of your split keyboard:
 
