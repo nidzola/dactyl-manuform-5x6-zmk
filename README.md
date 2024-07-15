@@ -13,7 +13,7 @@ This is my config for the Dactyl Manuform 5x6.
 ![Screenshot 2023-07-09 at 1 21 54 AM](https://github.com/nidzola/dactyl-manuform-5x6-zmk/assets/3450224/deaca9ed-2b0d-44b6-a363-5034b9309f7b)
 
 ### ADJ
-TBD
+TBD screenshot
 
 
 ## Good to know
